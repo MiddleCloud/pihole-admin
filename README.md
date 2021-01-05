@@ -1,3 +1,6 @@
+
+[![CI Status](https://github.com/MiddleCloud/pihole-admin/workflows/tests/badge.svg)](https://github.com/MiddleCloud/pihole-admin/actions)
+
 # Pihole Just Another Admin
 
 You are searching for another way to administrate your pihole.
