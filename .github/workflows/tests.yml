@@ -32,5 +32,11 @@ jobs:
       - name: Install dependencies
         run: composer update --prefer-dist --no-interaction --no-progress
 
+      - name: copy the .env.example to .env
+        run: cp .env.example .env
+
+      - name: Create a app specific key
+        run: php artisan key:generate
+
       - name: Execute tests
         run: vendor/bin/phpunit --verbose
