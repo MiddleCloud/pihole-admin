@@ -1,4 +1,6 @@
 /vendor
-composer.lock
-/phpunit.xml
+/.idea
+Homestead.json
+Homestead.yaml
+.env
 .phpunit.result.cache
